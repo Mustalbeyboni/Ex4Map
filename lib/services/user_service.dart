@@ -10,6 +10,7 @@
 
 import 'rest.dart';
 import '../models/user.dart';
+import 'dart:async';
 
 class UserService {
   static Future<User> getUserByLoginAndPassword(
