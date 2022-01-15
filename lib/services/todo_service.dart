@@ -28,6 +28,7 @@ class TodoService {
     return Todo.fromJson(json);
   }
 
+//todo list
   static Future<void> removeTodo(Todo todo) async {
     await Rest.delete('todos/${todo.id}');
   }
